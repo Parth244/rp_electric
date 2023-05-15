@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RP Electric</title>
+
+    <style>
+
+        /* .image{
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        } */
+
+        .image{
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .prev,
+        .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 20px;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: -50px;
+        /* color: white; */
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+        }   
+
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+        background-color: lightgray;
+}
+
+
+        
+
+    </style>
+
+</head>
+
+<body>
+
+
+          
+  <div class="image">
+
+    <img src="C:\Users\Admin\Desktop\RP Electric\photo_one.webp" width="30%">
+<!-- 
+    <img src="C:\Users\Admin\Desktop\341910791_9200286503375855_3295131852716412349_n.jpg" width="30%">
+
+    <img src="C:\Users\Admin\Desktop\321430802_5937244442986598_7619810903779605170_n.jpg" width="30%"> -->
+    
+  </div> 
+
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+
+</body>
